@@ -1,0 +1,52 @@
+/* info */
+.ui-pnotify-container{
+    color: #31708f !important;
+    background-color: #d9edf7 !important; 
+    border-color: #bce8f1;
+    background: none;
+}
+
+/* error */
+.ui-pnotify-container.ui-state-error {
+    color: #a94442 !important;
+    background-color: #f2dede !important; 
+    border-color: #ebccd1;
+    background: none;
+}
+
+/* success */
+.ui-state-default {
+    color: #3c763d !important;
+    background-color: #dff0d8 !important; 
+    border-color: #d6e9c6;
+    background: none;
+}
+
+/* warning */
+.ui-pnotify-container.ui-state-highlight {
+    color: #8a6d3b !important;
+    background-color: #fcf8e3 !important; 
+    border-color: #faebcc;
+    background: none;
+}
+
+.ui-pnotify-container .ui-icon {
+    background: none;
+}
+
+.ui-icon-close{
+    position: relative;
+    text-indent: 0px;
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+}
+
+.ui-icon-close:before {
+    content: "\f00d";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;           
+    position: absolute;
+}
